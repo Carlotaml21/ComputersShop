@@ -18,7 +18,12 @@ public class ComputerTest {
     @Test
     void shouldGetBrand(){
         assertEquals("Lenovo", computer.getBrand());
+    }
 
-
+    @Test
+    void shouldSetBrand(){
+        assertEquals("Lenovo", computer.getBrand());
+        computer.setBrand("HP");
+        assertEquals("HP", computer.getBrand());
     }
 }
