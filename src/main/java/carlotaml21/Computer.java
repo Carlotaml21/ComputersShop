@@ -17,6 +17,6 @@ public class Computer {
     }
 
     public String getBrand() {
-        return "HP";
+        return brand;
     }
 }

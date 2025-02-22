@@ -17,7 +17,6 @@ public class ComputerTest {
 
     @Test
     void shouldGetBrand(){
-
         assertEquals("Lenovo", computer.getBrand());
 
 
