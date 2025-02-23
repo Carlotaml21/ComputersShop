@@ -51,6 +51,7 @@ public class ShopTest {
 
     @Test
     void shouldSetOwner() {
+        assertEquals("Carlota", shop.getOwner());
         shop.setOwner("Arancha");
         assertEquals("Arancha", shop.getOwner());
     }
