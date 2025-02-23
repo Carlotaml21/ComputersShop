@@ -31,6 +31,7 @@ public class Computer {
     }
 
 
-
-
+    public String getOperatingSystem() {
+        return operatingSystem;
+    }
 }
