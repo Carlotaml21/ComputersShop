@@ -46,4 +46,8 @@ public class Computer {
     public void setCpuCharacteristics(String cpuCharacteristics) {
         this.cpuCharacteristics = cpuCharacteristics;
     }
+
+    public double getPrice() {
+        return price;
+    }
 }
