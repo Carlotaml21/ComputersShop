@@ -37,4 +37,9 @@ public class ComputerTest {
         computer.setStorage(1000);
         assertEquals(1000, computer.getStorage());
     }
+
+    @Test
+    void shouldGetOperatingSystem(){
+        assertEquals("Windows", computer.getOperatingSystem());
+    }
 }
