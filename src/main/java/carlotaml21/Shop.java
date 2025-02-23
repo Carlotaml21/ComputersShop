@@ -50,4 +50,8 @@ public class Shop {
     public boolean addComputer(Computer newComputer) {
         return computers.add(newComputer);
     }
+
+    public boolean deleteComputer(Computer computer) {
+        return computers.remove(computer);
+    }
 }

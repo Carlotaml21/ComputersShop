@@ -17,7 +17,7 @@ public class ShopTest {
     @BeforeEach
     void setUp() {
         computers = new ArrayList<>();
-        computer = new Computer("Lenovo", 500, "Windows", "i7", 500.0)
+        computer = new Computer("Lenovo", 500, "Windows", "i7", 500.0);
         computers.add(computer);
         shop = new Shop(76589, "carloTICshop", "Carlota", computers);
     }
