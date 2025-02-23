@@ -31,4 +31,10 @@ public class ComputerTest {
     void shouldGetStorage(){
         assertEquals(500, computer.getStorage());
     }
+
+    @Test void shouldSetStorage(){
+        assertEquals(500, computer.getStorage());
+        computer.setStorage(1000);
+        assertEquals(1000, computer.getStorage());
+    }
 }
