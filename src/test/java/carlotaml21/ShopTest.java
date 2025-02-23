@@ -32,5 +32,11 @@ public class ShopTest {
         assertEquals(12345, shop.getId());
     }
 
+    @Test
+    void shouldGetName() {
+        assertEquals("carloTICshop", shop.getName());
+    }
+
+
 
 }
