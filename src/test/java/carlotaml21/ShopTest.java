@@ -39,7 +39,7 @@ public class ShopTest {
 
     @Test
     void shouldSetName() {
-        assertEquals("CarloTICshop", shop.getName());
+        assertEquals("carloTICshop", shop.getName());
         shop.setName("PCcomponentes");
         assertEquals("PCcomponentes", shop.getName());
     }
