@@ -54,4 +54,12 @@ public class Shop {
     public boolean deleteComputer(Computer computer) {
         return computers.remove(computer);
     }
+
+    public List<Computer> findByBrand(String brand) {
+        return computers
+            .stream()
+            .filter(computer -> computer.getBrand().equals(brand))
+            .toList();
+
+    }
 }

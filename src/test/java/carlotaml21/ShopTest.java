@@ -95,7 +95,7 @@ public class ShopTest {
 
     @Test
     void shouldFindByBrand(){
-      List<Computer> levonoComputers = computer.findByBrand("Lenovo");
+      List<Computer> levonoComputers = shop.findByBrand("Lenovo");
 
       assertEquals(1, levonoComputers.size());
       assertEquals(500,levonoComputers.get(0).getStorage());
