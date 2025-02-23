@@ -56,6 +56,12 @@ public class ShopTest {
         assertEquals("Arancha", shop.getOwner());
     }
 
+    @Test
+    void shouldGetComputers() {
+        assertEquals(computers, shop.getComputers());
+    }
+
+
 
 
 
