@@ -46,4 +46,8 @@ public class Shop {
     public void setComputers(List<Computer> newComputers) {
         this.computers = newComputers;
     }
+
+    public boolean addComputer(Computer newComputer) {
+        return computers.add(newComputer);
+    }
 }
