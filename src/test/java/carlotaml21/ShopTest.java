@@ -44,6 +44,11 @@ public class ShopTest {
         assertEquals("PCcomponentes", shop.getName());
     }
 
+    @Test
+    void shouldGetOwner() {
+        assertEquals("Carlota", shop.getOwner());
+    }
+
 
 
 }
