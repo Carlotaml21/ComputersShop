@@ -55,7 +55,7 @@ public class ComputerTest {
         assertEquals("i7", computer.getCpuCharacteristics());
     }
 
-    Test
+    @Test
     void shouldSetCpuCharacteristics(){
         assertEquals("i7", computer.getCpuCharacteristics());
         computer.setCpuCharacteristics("Ryzen 9");
