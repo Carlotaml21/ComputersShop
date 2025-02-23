@@ -23,4 +23,7 @@ public class Computer {
     public void setBrand(String brand) {
         this.brand = brand;
     }
+    public int getStorage() {
+        return 200;
+    }
 }

@@ -26,4 +26,9 @@ public class ComputerTest {
         computer.setBrand("HP");
         assertEquals("HP", computer.getBrand());
     }
+
+    @Test
+    void shouldGetStorage(){
+        assertEquals(500, computer.getStorage());
+    }
 }
