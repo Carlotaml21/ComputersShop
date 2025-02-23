@@ -34,4 +34,8 @@ public class Computer {
     public String getOperatingSystem() {
         return operatingSystem;
     }
+
+    public void setOperatingSystem(String operatingSystem) {
+        this.operatingSystem = operatingSystem;
+    }
 }
