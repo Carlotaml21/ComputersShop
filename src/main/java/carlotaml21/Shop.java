@@ -42,4 +42,8 @@ public class Shop {
     public List<Computer> getComputers() {
         return computers;
     }
+
+    public void setComputers(List<Computer> newComputers) {
+        this.computers = newComputers;
+    }
 }
