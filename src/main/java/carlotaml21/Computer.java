@@ -38,4 +38,8 @@ public class Computer {
     public void setOperatingSystem(String operatingSystem) {
         this.operatingSystem = operatingSystem;
     }
+
+    public String getCpuCharacteristics() {
+        return cpuCharacteristics;
+    }
 }
