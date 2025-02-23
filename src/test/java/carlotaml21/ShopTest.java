@@ -91,7 +91,14 @@ public class ShopTest {
 
         assertTrue(shop.deleteComputer(computer));
         assertEquals(0, shop.getComputers().size());
+    }
 
+    @Test
+    void shouldFindByBrand(){
+      List<Computer> levonoComputers = computer.findByBrand("Lenovo");
+
+      assertEquals(1, levonoComputers.size());
+      assertEquals(500,levonoComputers.get(0).getStorage());
     }
 
 
