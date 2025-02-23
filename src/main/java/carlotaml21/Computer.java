@@ -24,6 +24,6 @@ public class Computer {
         this.brand = brand;
     }
     public int getStorage() {
-        return 200;
+        return storage;
     }
 }
