@@ -49,4 +49,10 @@ public class ComputerTest {
         computer.setOperatingSystem("Linux");
         assertEquals("Linux", computer.getOperatingSystem());
     }
+
+    @Test
+    void shouldGetCpuCharacteristics(){
+        assertEquals("i7", computer.getCpuCharacteristics());
+    }
+
 }
