@@ -101,6 +101,13 @@ public class ShopTest {
       assertEquals(500,levonoComputers.get(0).getStorage());
     }
 
+    @Test
+    void shouldGetComputersInformation(){
+        assertEquals(computers.toString(), shop.getComputersInformation());
+
+
+    }
+
 
 
 
