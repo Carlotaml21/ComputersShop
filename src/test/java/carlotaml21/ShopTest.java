@@ -69,6 +69,22 @@ public class ShopTest {
         assertEquals(newComputers, shop.getComputers());
     }
 
+    @Test
+    void shouldAddComputer(){
+        assertEquals(1, shop.getComputers().size());
+        Computer newComputer = new Computer ("apple", 2000, "macOS", "M1", 1500.0);
+
+        assertTrue(shop.addComputer(newComputer));
+
+        assertEquals("apple", shop.getComputers().get(1).getBrand());
+        assertEquals(2000, shop.getComputers().get(1).getStorage());
+        assertEquals("macOS", shop.getComputers().get(1).getOperatingSystem());
+
+        assertEquals(2, shop.getComputers().size());
+
+    }
+
+
 
 
 
