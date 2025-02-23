@@ -42,4 +42,11 @@ public class ComputerTest {
     void shouldGetOperatingSystem(){
         assertEquals("Windows", computer.getOperatingSystem());
     }
+
+    @Test
+    void shouldSetOperatingSystem(){
+        assertEquals("Windows", computer.getOperatingSystem());
+        computer.setOperatingSystem("Linux");
+        assertEquals("Linux", computer.getOperatingSystem());
+    }
 }
