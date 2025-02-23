@@ -12,11 +12,13 @@ public class ShopTest {
 
     private Shop shop;
     private List<Computer> computers;
+    private Computer computer;
 
     @BeforeEach
     void setUp() {
         computers = new ArrayList<>();
-        computers.add(new Computer("Lenovo", 500, "Windows", "i7", 500.0));
+        computer = new Computer("Lenovo", 500, "Windows", "i7", 500.0)
+        computers.add(computer);
         shop = new Shop(76589, "carloTICshop", "Carlota", computers);
     }
 
@@ -81,6 +83,14 @@ public class ShopTest {
         assertEquals("macOS", shop.getComputers().get(1).getOperatingSystem());
 
         assertEquals(2, shop.getComputers().size());
+
+    }
+    @Test
+    void shouldDeleteComputer(){
+        assertEquals(1, shop.getComputers().size());
+
+        assertTrue(shop.deleteComputer(computer));
+        assertEquals(0, shop.getComputers().size());
 
     }
 
