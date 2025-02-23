@@ -26,4 +26,11 @@ public class Computer {
     public int getStorage() {
         return storage;
     }
+    public void setStorage(int storage) {
+        this.storage = storage;
+    }
+
+
+
+
 }
