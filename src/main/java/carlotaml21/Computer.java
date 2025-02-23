@@ -23,9 +23,11 @@ public class Computer {
     public void setBrand(String brand) {
         this.brand = brand;
     }
+
     public int getStorage() {
         return storage;
     }
+
     public void setStorage(int storage) {
         this.storage = storage;
     }
@@ -54,4 +56,6 @@ public class Computer {
     public void setPrice(double price) {
         this.price = price;
     }
+
 }
+
