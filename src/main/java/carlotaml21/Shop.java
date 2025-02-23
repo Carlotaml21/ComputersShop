@@ -1,6 +1,6 @@
 package carlotaml21;
 
-import java.util.List*;
+import java.util.List;
 import java.util.ArrayList;
 
 public class Shop {
@@ -14,7 +14,9 @@ public class Shop {
         this.name = name;
         this.owner = owner;
         this.computers =  (computers != null) ? computers : new ArrayList<>();
-        ;
     }
+
+    public int getId() {
+        return id; }
 
 }
