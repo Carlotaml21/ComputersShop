@@ -38,4 +38,8 @@ public class Shop {
     public void setOwner(String owner) {
         this.owner = owner;
     }
+
+    public List<Computer> getComputers() {
+        return computers;
+    }
 }
