@@ -57,5 +57,15 @@ public class Computer {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "Computer{" +
+            "brand='" + brand + '\'' +
+            ", storage=" + storage +
+            ", operatingSystem='" + operatingSystem + '\'' +
+            ", cpuCharacteristics='" + cpuCharacteristics + '\'' +
+            ", price=" + price +
+            '}';
+    }
 }
 

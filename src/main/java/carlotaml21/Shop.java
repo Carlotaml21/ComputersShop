@@ -62,4 +62,9 @@ public class Shop {
             .toList();
 
     }
+
+    public String getComputersInformation() {
+        return computers
+            .toString();
+    }
 }

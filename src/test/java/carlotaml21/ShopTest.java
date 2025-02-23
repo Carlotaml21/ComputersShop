@@ -103,7 +103,8 @@ public class ShopTest {
 
     @Test
     void shouldGetComputersInformation(){
-        assertEquals(computers.toString(), shop.getComputersInformation());
+        List<Computer> computersInfo = List.of(new Computer("Lenovo", 500, "Windows", "i7", 500.0));
+        assertEquals(computersInfo.toString(), shop.getComputersInformation());
 
 
     }
