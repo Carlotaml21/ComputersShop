@@ -61,6 +61,14 @@ public class ShopTest {
         assertEquals(computers, shop.getComputers());
     }
 
+    @Test
+    void shouldSetComputers() {
+        List<Computer> newComputers = new ArrayList<>();
+        newComputers.add(new Computer("HP", 1000, "Linux", "Ryzen 9", 1200.0));
+        shop.setComputers(newComputers);
+        assertEquals(newComputers, shop.getComputers());
+    }
+
 
 
 
