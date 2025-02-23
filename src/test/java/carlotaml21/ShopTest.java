@@ -25,5 +25,12 @@ public class ShopTest {
         assertEquals(76589, shop.getId());
     }
 
+    @Test
+    void shouldSetId() {
+        assertEquals(76589, shop.getId());
+        shop.setId(12345);
+        assertEquals(12345, shop.getId());
+    }
+
 
 }
