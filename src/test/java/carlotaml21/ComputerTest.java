@@ -67,4 +67,11 @@ public class ComputerTest {
         assertEquals(500.0, computer.getPrice());
     }
 
+    @Test
+    void shouldSetPrice(){
+        assertEquals(500.0, computer.getPrice());
+        computer.setPrice(1200.5);
+        assertEquals(1200.5, computer.getPrice());
+    }
+
 }
