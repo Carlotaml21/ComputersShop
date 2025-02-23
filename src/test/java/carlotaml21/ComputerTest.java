@@ -62,4 +62,9 @@ public class ComputerTest {
         assertEquals("Ryzen 9", computer.getCpuCharacteristics());
     }
 
+    @Test
+    void shouldGetPrice(){
+        assertEquals(500.0, computer.getPrice());
+    }
+
 }
